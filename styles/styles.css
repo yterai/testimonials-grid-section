@@ -122,3 +122,26 @@ main {
   grid-row-start: 1;
   grid-column-start: 3;
 } */
+
+@media only screen and (min-width: 1024px) {
+  body {
+    height: 100vh;
+    position: relative;
+  }
+
+  main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 74.8%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    grid-template-areas:
+      "box-1 box-1 box-2 box-5"
+      "box-3 box-4 box-4 box-5";
+  }
+}
