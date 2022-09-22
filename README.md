@@ -24,7 +24,7 @@ To create the grid layout for desktop size - I needed to apply the CSS grid conc
 
 ### Links
 
-- Solution URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/testimonials-grid-section-Zq81luMp62]
 - Live Site URL: [https://yterai.github.io/testimonials-grid-section/]
 
 ## My process
